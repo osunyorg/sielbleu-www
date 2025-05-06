@@ -12,7 +12,12 @@ items:
   target: "/equipe/"
   kind: page
   new_tab: false
-  children: []
+  children:
+  - title: 'Jérôme Deconinck '
+    target: ''
+    kind: blank
+    new_tab: false
+    children: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Organisations
