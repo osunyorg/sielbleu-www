@@ -1,6 +1,15 @@
 ---
 title: Menu principal
 items:
+- title: Actualités
+  slug: actualites
+  target: "/actualites/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/posts"
+  file: content/fr/posts/_index.html
 - title: Équipe
   slug: equipe
   target: "/equipe/"
@@ -20,15 +29,6 @@ items:
   - "/equipe/equipe-editoriale/"
   path: "/persons"
   file: content/fr/persons/_index.html
-- title: Actualités
-  slug: actualites
-  target: "/actualites/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/posts"
-  file: content/fr/posts/_index.html
 - title: Organisations
   slug: organisations
   target: "/organisations/"
